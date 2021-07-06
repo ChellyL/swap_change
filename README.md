@@ -13,4 +13,8 @@ wget https://raw.githubusercontent.com/ChellyL/swap_change/main/swap.sh && bash 
 ```
 需再次使用删除warp或修改swap大小则输入 `bash swap.sh`即可
 
-注意仅支持KVM构架，不支持OpenVZ
+注意：
+
+创建的swap文件为/root/swapfile，注意请勿删除
+
+仅支持KVM构架，不支持OpenVZ
