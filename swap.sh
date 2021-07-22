@@ -29,7 +29,7 @@ read -p "请输入swap数值:" swapsize
 #删除原本的swap
 swapoff -a
 #创建swap文件
-dd if=/dev/zero of=/swapfile bs=1M count=${swapsize}
+dd if=/dev/zero of=/root/swapfile bs=1M count=${swapsize}
 #格式化分区
 mkswap /root/swapfile
 #启用swap
