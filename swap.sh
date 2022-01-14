@@ -22,7 +22,7 @@ ovz_no(){
 }
 
 add_swap(){
-echo -e "${Green}请输入需要添加的swap，建议为内存的2倍！${Font}"
+echo -e "${Green}请输入需要添加的swap，建议为内存的2倍！[单位Mb]${Font}"
 read -p "请输入swap数值:" swapsize
 
 
